@@ -58,14 +58,14 @@ const QrCode = () => {
             onChange={handleAmountChange}/>
           <div className={styles.button} onClick={() => setIsOpen(!isOpen)}>{t("receivePage.btn")}</div>
           <div className={styles.wrapperQr}>
-            < QRCode bgColor={'#d2d3d5'} size={210} value={activeWallet.wallet}/>
+            < QRCode bgColor={'#d2d3d5'} size={210} value={activeWallet?.wallet}/>
           </div>
         </> :
         <p className={styles.text}>{t("receivePage.notCurrency")}</p>
       }
       <BottomPopUp setIsOpen={setIsOpen} isOpen={isOpen}>
-        <ShareButtons url={"t.me/LikeWalletPay_bot/LikePayWallet"} description={`${t("receivePage.message1")} ${activeWallet.address}.
-           ${t("receivePage.message2")} ${amountValue} ${activeWallet.token} ${t("receivePage.message3")}  ${activeWallet.network}`}/>
+        <ShareButtons url={"t.me/LikeWalletPay_bot/LikePayWallet"} description={`${t("receivePage.message1")} ${activeWallet?.address}.
+           ${t("receivePage.message2")} ${amountValue} ${activeWallet.token} ${t("receivePage.message3")}  ${activeWallet?.network}`}/>
       </BottomPopUp>
     </div>
   );
