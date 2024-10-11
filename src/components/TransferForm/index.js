@@ -48,7 +48,7 @@ const TransferForm = ({onSubmit, balance}) => {
     <form className={styles.wrapper} onSubmit={handleSubmit(onSubmit)}>
       <div className={styles.inputGroup}>
         <input
-          {...register("address",
+          {...register("wallet_address_to",
             {required: `${t("sendPage.error1")}`})}
           type="text"
           placeholder={t("sendPage.placeholder1")}

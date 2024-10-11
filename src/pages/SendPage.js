@@ -6,16 +6,13 @@ import {useTranslation} from "react-i18next";
 
 const SendPage = () => {
   const { t } = useTranslation();
-  const [isScannerOpen, setIsScannerOpen] = useState(false);
+  // const [isScannerOpen, setIsScannerOpen] = useState(false);
 
   return (
     <>
       <Header hasRate title={t("sendPage.title")}/>
-      {!isScannerOpen && <CardsSlider/>}
-      <SendPanel
-        isScannerOpen={isScannerOpen}
-        setIsScannerOpen={setIsScannerOpen}
-      />
+      <CardsSlider/>
+      <SendPanel/>
     </>
   );
 };

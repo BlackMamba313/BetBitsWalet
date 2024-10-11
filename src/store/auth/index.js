@@ -33,8 +33,7 @@ export const transfer = createAsyncThunk(
   'transfer',
   async (params, { rejectWithValue }) => {
     try {
-      const requestData = hashRequestData(params);
-      const { data } = await axiosInstance.post('transfer', requestData);
+      const { data } = await axiosInstance.post('send_token/', params);
       return data;
     } catch (error) {
       return rejectWithValue(error.response ? error.response.data : 'Unknown error');
@@ -197,16 +196,15 @@ const authSlice = createSlice({
       state.loader = true;
     });
     builder.addCase(transfer.fulfilled, (state, {meta, payload}) => {
-      const { token, network } = meta.arg; // Извлекаем token и network из meta
-      const remains = payload?.remains; // Извлекаем остаток баланса после операции
+      // const remains = payload // Извлекаем остаток баланса после операции
       // Находим кошелек, который соответствует условиям token и network
-      if (remains) {
-        const walletIndex = state.wallets.findIndex(wallet => wallet.token === token && wallet.network === network);
-        if (walletIndex !== -1) {
-          // Если кошелек найден, обновляем его баланс на остаток после операции
-          state.wallets[walletIndex].balance = remains;
-        }
-      }
+      // if (remains) {
+      //   const walletIndex = state.wallets.findIndex(wallet => wallet.token === token && wallet.network === network);
+      //   if (walletIndex !== -1) {
+      //     // Если кошелек найден, обновляем его баланс на остаток после операции
+      //     state.wallets[walletIndex].balance = remains;
+      //   }
+      // }
       state.isLoggedIn = true
       state.onSuccess = true;
     });
