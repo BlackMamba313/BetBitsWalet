@@ -19,23 +19,23 @@ function App() {
   const user = useSelector(userData);
   const {userTG} = useTelegram();
   const token = localStorage.getItem('accessToken');
-  const userMock = {
-    allows_write_to_pm: 1,
-    first_name: "Alex",
-    id: 1062567639,
-    is_premium: 1,
-    language_code: "en",
-    username: "AleksKonstant"
-  }
+  // const userMock = {
+  //   allows_write_to_pm: 1,
+  //   first_name: "Alex",
+  //   id: 1062567639,
+  //   is_premium: 1,
+  //   language_code: "en",
+  //   username: "AleksKonstant"
+  // }
 
   useEffect(() => {
     if (userTG) {
       dispatch(auth(userTG));
-    } else {
-      dispatch(auth(userMock));
-      console.log('user is not')
-
     }
+    // else {
+    //   dispatch(auth(userMock));
+    //   console.log('user is not')
+    // }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
