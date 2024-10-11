@@ -18,12 +18,6 @@ const CardsSlider = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const wallets = dataWallets?.wallets
 
-  const totalwalet = {
-    balance: dataWallets?.total_balance,
-    token: dataWallets?.display_currency,
-    convert_balance: dataWallets?.total_balance
-  }
-
   const handleChangeIndex = (index) => {
     setCurrentIndex(index);
     dispatch(setActiveWallet({...wallets[index], index: index}));
@@ -38,7 +32,6 @@ const CardsSlider = () => {
     <div className={styles.wrapper}>
       {currentIndex === 0 && <SwipeAnimation/>}
       <EnhancedSwipeableViews index={currentIndex} onChangeIndex={handleChangeIndex}>
-        <Card  card={totalwalet} />
         {map(wallets, (card) => (
           <Card  card={card} />
         ))}

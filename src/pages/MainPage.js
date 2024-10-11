@@ -23,7 +23,7 @@ const MainPage = () => {
       <Header hasRate title={t("mainPage.title")}/>
       <CardsSlider/>
       <ControlButtons sourceAmount={sourceAmount}/>
-      {currentWallet && rate && <Converter sourceAmount={sourceAmount} setSourceAmount={setSourceAmount}/>}
+      {rate && <Converter sourceAmount={sourceAmount} setSourceAmount={setSourceAmount}/>}
     </>
   );
 };

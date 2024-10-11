@@ -18,7 +18,7 @@ const QrCode = () => {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(activeWallet?.address);
+      await navigator.clipboard.writeText(activeWallet?.wallet);
       await showToast({icon: 'info', title: 'copied'})
     } catch (err) {
       console.error('Не удалось скопировать текст: ', err);
@@ -43,9 +43,9 @@ const QrCode = () => {
   return (
     <div className={styles.wrapper}>
       <div onClick={handleCopy}>
-        <p className={styles.walletAddress}>{activeWallet?.address}</p>
+        <p className={styles.walletAddress}>{activeWallet?.wallet}</p>
       </div>
-      {activeWallet.address ?
+      {activeWallet.wallet ?
         <>
           <p className={styles.text}>{t("receivePage.receive")}</p>
           <input
@@ -58,7 +58,7 @@ const QrCode = () => {
             onChange={handleAmountChange}/>
           <div className={styles.button} onClick={() => setIsOpen(!isOpen)}>{t("receivePage.btn")}</div>
           <div className={styles.wrapperQr}>
-            < QRCode bgColor={'#d2d3d5'} size={210} value={activeWallet.address}/>
+            < QRCode bgColor={'#d2d3d5'} size={210} value={activeWallet.wallet}/>
           </div>
         </> :
         <p className={styles.text}>{t("receivePage.notCurrency")}</p>

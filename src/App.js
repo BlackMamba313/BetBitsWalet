@@ -51,7 +51,6 @@ function App() {
 
   function changeTheme(currency) {
     let root = document.documentElement;
-    console.log(currency)
     if (currency === 'USDT') {
       root.style.setProperty('--currency-color', '#52ae94');
     } else if (currency === 'TRX') {
