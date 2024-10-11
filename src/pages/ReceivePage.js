@@ -8,12 +8,12 @@ import {useTranslation} from "react-i18next";
 
 const ReceivePage = () => {
   const { t } = useTranslation();
-  const activeWallet = useSelector(walletData)
+  // const activeWallet = useSelector(walletData)
   return (
     <>
       <Header hasRate title={t("receivePage.title")}/>
       <CardsSlider/>
-      {activeWallet && <QrCode/>}
+      {<QrCode/>}
     </>
   );
 };
