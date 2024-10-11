@@ -27,7 +27,7 @@ const Header = ({title, hasRate}) => {
       <div className={styles.cost}>
       {activeWallet &&
         <div >
-          {t("general.rate")}<span className={styles.currency}> {activeWallet.token} </span>{activeWallet.exchange_rate} {user?.iso} USD
+          {t("general.rate")}<span className={styles.currency}> {activeWallet.token} </span>{(activeWallet.exchange_rate).toFixed(2)} {user?.iso}
         </div>
       }
       </div>
