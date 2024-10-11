@@ -186,6 +186,7 @@ const authSlice = createSlice({
     });
     builder.addCase(getWallets.fulfilled, (state, {payload}) => {
       state.wallets = payload;
+      state.currentWallet = payload.wallets[0]
     });
     builder.addCase(getWallets.rejected, (state, action) => {
       state.loader = false; // Останавливаем индикатор загрузки
