@@ -1,0 +1,17 @@
+.listWrapper {
+    width: 47%;
+    height: 300px;
+    overflow: scroll;
+    background: var(--card-color);
+    border-radius: 10px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 54px;
+    text-align: right;
+}

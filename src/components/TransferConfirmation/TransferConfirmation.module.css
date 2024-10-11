@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    margin: 10px;
+    padding: 15px;
+    background-color: #373B38;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    font-size: 23px;
+    color: #FFF;
+    outline: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.QrBtn {
+    margin-top: 40px;
+    font-size: 34px;
+}
+
+.sendButton {
+    cursor: pointer;
+    width: 45%;
+    height: 45px;
+    background-color: transparent;
+    color: #b0afaf;
+    font-size: 16px;
+    border: 2px solid var(--currency-color);
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sendButton:disabled {
+    background-color: #A9A9A9; /* Более темный серый для неактивной кнопки */
+    cursor: not-allowed;
+}

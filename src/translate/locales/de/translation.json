@@ -1,0 +1,65 @@
+{
+  "general": {
+    "rate": "Zum Kurs von 1",
+    "balance": "Ihr Saldo",
+    "btnSend": "Senden",
+    "btnReceive": "Empfangen",
+    "qrScan": "QR-Code scannen"
+  },
+  "mainPage": {
+    "title": "Krypto-Wallets"
+  },
+  "profilePage": {
+    "title": "Profileinstellungen",
+    "placeholder1": "E-Mail",
+    "placeholder2": "Telefonnummer",
+    "safeBtn": "Änderungen speichern",
+    "contactBtn": "Kontakte",
+    "verifyBtn": "Verifizieren Sie Ihr Konto",
+    "referralBtn": "Partnerprogramm"
+  },
+  "receivePage": {
+    "title": "Empfangen",
+    "receive": "Eine Überweisung von einem Kontakt anfordern",
+    "notCurrency": "Keine Währung ausgewählt",
+    "placeholder": "Betrag eingeben",
+    "btn": "Senden",
+    "message1": "Meine Wallet-Adresse: ",
+    "message2": "Angeforderter Betrag: ",
+    "message3": " im Netzwerk "
+  },
+  "sendPage": {
+    "title": "Senden",
+    "scan": "QR-Code scannen",
+    "placeholder1": "Wallet-Adresse",
+    "placeholder2": "Betrag",
+    "error1": "Dieses Feld ist erforderlich",
+    "error2": "Geben Sie den richtigen Betrag ein",
+    "error3": "Nicht genug Geld",
+    "slider1": "Gesendet!",
+    "slider2": "Bestätigen",
+    "confirm1": "Details",
+    "confirm2": "Online-Übersetzung",
+    "confirm3": "Übersetzen",
+    "confirm4": "Überweisungsgebühr: ",
+    "confirm5": "Überweisungsadresse: ",
+    "btn": "Senden",
+    "noTokenError": "Währung auswählen"
+  },
+  "referralPage": {
+    "title": "Affiliate-Programm",
+    "total": "Empfehlungen",
+    "balance": "Verdient",
+    "share": "Projekt teilen"
+  },
+  "contactPage": {
+    "title": "Kontaktliste"
+  },
+  "history": {
+    "send": "Gesendet",
+    "receive": "Empfangen",
+    "safeBtn": "Speichern",
+    "sendBtn": "Senden",
+    "titlePopUp": "Speichern unter"
+  }
+}

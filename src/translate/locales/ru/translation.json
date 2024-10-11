@@ -1,0 +1,65 @@
+{
+  "general": {
+    "rate": "По курсу за 1",
+    "balance": "Ваш баланс",
+    "btnSend": "Отправить",
+    "btnReceive": "Получить",
+    "qrScan": "Сканировать QR код"
+  },
+  "mainPage": {
+    "title": "Крипто кошельки"
+  },
+  "profilePage": {
+    "title": "Настройки профиля",
+    "placeholder1": "Электронная почта",
+    "placeholder2": "Номер телефона",
+    "safeBtn": "Сохранить изменения",
+    "contactBtn": "Контакты",
+    "verifyBtn": "Верифицировать аккаунт",
+    "referralBtn": "Партнерская программа"
+  },
+  "receivePage": {
+    "title": "Получить",
+    "receive": "Запросить перевод у контакта",
+    "notCurrency": "Валюта не выбрана",
+    "placeholder": "Введите сумму",
+    "btn": "Отправить",
+    "message1": "Мой адрес кошелька: ",
+    "message2": "Запрошенная сумма: ",
+    "message3": " в сети "
+  },
+  "sendPage": {
+    "title": "Отправить",
+    "scan": "Сканировать QR код",
+    "placeholder1": "Адрес кошелька",
+    "placeholder2": "Сумма",
+    "error1": "Это поле обязательно",
+    "error2": "Введите корректную сумму",
+    "error3": "Недостаточно денег",
+    "slider1": "Отправлено!",
+    "slider2": "Подтвердить",
+    "confirm1": "Детали перевода:",
+    "confirm2": "Перевод в сети",
+    "confirm3": "Переводим",
+    "confirm4": "Комиссия за перевод: ",
+    "confirm5": "Адрес перевода: ",
+    "btn": "Отправить",
+    "noTokenError": "Выберите валюту"
+  },
+  "referralPage": {
+    "title": "Партнерская программа",
+    "total": "STACKING USERS",
+    "balance": "MINING",
+    "share": "Share the project"
+  },
+  "contactPage": {
+    "title": "Список контактов"
+  },
+  "history": {
+    "send": "Отправлено",
+    "receive": "Получено",
+    "safeBtn": "Сохранить",
+    "sendBtn": "Отправить",
+    "titlePopUp": "Сохранить как"
+  }
+}

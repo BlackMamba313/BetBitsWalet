@@ -1,0 +1,28 @@
+.popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%); /* Изначально скрыт за пределами экрана */
+    z-index: 1000; /* Убедитесь, что попап будет поверх других элементов */
+}
+
+.popupContent {
+    background: #3A3B3B;
+    padding: 20px 0 60px 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+    width: 100vw;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popup.open {
+    transform: translateY(0); /* При открытии перемещаем в область видимости */
+}

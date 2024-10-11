@@ -1,0 +1,23 @@
+.transactionList {
+    padding: 10px;
+    color: #fff; /* Яркий текст для читаемости на темном фоне */
+}
+
+.transactionCard {
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: var(--card-color);
+    color: #3a454e;
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.detailsHidden {
+    pointer-events: none; /* Элемент не реагирует на клики */
+    overflow: hidden; /* Убедитесь, что внутренности скрытого элемента также не могут быть кликнуты */
+}
+
+.detailsVisible {
+    pointer-events: auto; /* Элемент реагирует на клики */
+}
+

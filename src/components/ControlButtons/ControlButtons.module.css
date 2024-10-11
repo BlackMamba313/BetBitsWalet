@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.button {
+    cursor: pointer;
+    width: 45%;
+    height: 45px;
+    border: 2px solid #C6C1BE;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus, .button:active {
+    background-color: #4b4b4b;
+}
+
+.centr {
+    margin-top: 13px;
+}
+
+.centr1 {
+    margin-top: 7px;
+}
+

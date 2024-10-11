@@ -1,0 +1,71 @@
+.wrapper {
+    position: relative;
+}
+
+
+.card {
+    padding: 12px;
+    width: 90%;
+    height: 200px;
+    border-radius: 25px;
+    background: var(--button-BColor);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mainBalance {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.subBalance {
+    margin-bottom: 10px;
+    color: #F0E666;
+    font-size: 17px;
+}
+
+.walletNumber {
+    margin-bottom: 6px;
+    color: #4EEFDC;
+    font-size: 12px;
+}
+
+.userName {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.cardFooterBox {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cardId {
+    margin-bottom: -2px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.cardStatus {
+    margin-bottom: 2px;
+    color: rgba(239, 0, 74, 0.90);
+    font-size: 16px;
+    font-weight: 700;
+}

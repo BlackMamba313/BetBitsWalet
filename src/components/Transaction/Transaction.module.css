@@ -1,0 +1,20 @@
+.container {
+    padding: 5px 10px;
+}
+
+.cardRow {
+    display: flex;
+    justify-content: space-between; /* Располагаем элементы на разных концах карточки */
+    align-items: center;
+}
+
+.dateTime {
+    color: #3a454e; /* Приглушенный зеленый для ввода */
+    font-size: 16px;
+    margin-right: 10px; /* Отступ между датой и суммой */
+}
+
+.amount {
+    font-size: 16px;
+    color: #b0afaf;
+}

@@ -1,0 +1,65 @@
+{
+  "general": {
+    "rate": "Au taux de 1",
+    "balance": "Votre solde",
+    "btnSend": "Envoyer",
+    "btnReceive": "Recevoir",
+    "qrScan": "Scanner le code QR"
+  },
+  "mainPage": {
+    "title": "Portefeuilles Crypto"
+  },
+  "profilePage": {
+    "title": "Paramètres de profil",
+    "placeholder1": "E-mail",
+    "placeholder2": "Numéro de téléphone",
+    "safeBtn": "Enregistrer les modifications",
+    "contactBtn": "Contacts",
+    "verifyBtn": "Vérifiez votre compte",
+    "referralBtn": "Programme d'affiliation"
+  },
+  "receivePage": {
+    "title": "Recevoir",
+    "receive": "Demander un transfert d'un contact",
+    "notCurrency": "Devise non sélectionnée",
+    "placeholder": "Entrez le montant",
+    "btn": "Envoyer",
+    "message1": "Mon adresse de portefeuille : ",
+    "message2": "Montant demandé : ",
+    "message3": " sur le réseau "
+  },
+  "sendPage": {
+    "title": "Envoyer",
+    "scan": "Scanner le code QR",
+    "placeholder1": "Adresse du portefeuille",
+    "placeholder2": "Montant",
+    "error1": "Ce champ est obligatoire",
+    "error2": "Entrez le montant correct",
+    "error3": "Pas assez d'argent",
+    "slider1": "Envoyé !",
+    "slider2": "Confirmer",
+    "confirm1": "Détails",
+    "confirm2": "Traduction en ligne",
+    "confirm3": "Traduction",
+    "confirm4": "Frais de transfert : ",
+    "confirm5": "Adresse de transfert : ",
+    "btn": "Envoyer",
+    "noTokenError": "Sélectionnez la devise"
+  },
+  "referralPage": {
+    "title": "Programme d'affiliation",
+    "total": "Références",
+    "balance": "Gagné",
+    "share": "Partager le projet"
+  },
+  "contactPage": {
+    "title": "Liste de contacts"
+  },
+  "history": {
+    "send": "Envoyé",
+    "receive": "Reçu",
+    "safeBtn": "Sauvegarder",
+    "sendBtn": "Envoyer",
+    "titlePopUp": "Enregistrer sous"
+  }
+}

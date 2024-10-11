@@ -1,0 +1,35 @@
+.progressCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%; /* Ширина и высота SVG круга */
+}
+
+.progressSvg {
+    transform: rotate(45deg); /* Поворачиваем SVG, чтобы начало было сверху */
+}
+
+.progressBackground {
+    stroke: #5DE4AC; /* Цвет фона прогресса */
+    stroke-width: 10; /* Толщина линии фона */
+}
+
+.progressValue {
+    stroke: #DB12CC; /* Цвет индикатора прогресса */
+    stroke-width: 8; /* Толщина линии индикатора */
+    transition: stroke-dashoffset 0.35s; /* Плавное изменение прогресса */
+    transform-origin: center; /* Трансформация происходит от центра */
+}
+
+.progressText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1DF26E;
+    font-size: 30px;
+}
+
+

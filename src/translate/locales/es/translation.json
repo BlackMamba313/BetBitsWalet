@@ -1,0 +1,65 @@
+{
+  "general": {
+    "rate": "A la tasa de 1",
+    "balance": "Tu saldo",
+    "btnSend": "Enviar",
+    "btnReceive": "Recibir",
+    "qrScan": "Escanear código QR"
+  },
+  "mainPage": {
+    "title": "Carteras Cripto"
+  },
+  "profilePage": {
+    "title": "Configuración de Perfil",
+    "placeholder1": "Correo electrónico",
+    "placeholder2": "Número de teléfono",
+    "safeBtn": "Guardar cambios",
+    "contactBtn": "Contactos",
+    "verifyBtn": "Verifica tu cuenta",
+    "referralBtn": "Programa de afiliados"
+  },
+  "receivePage": {
+    "title": "Recibir",
+    "receive": "Solicitar una transferencia de un contacto",
+    "notCurrency": "Moneda no seleccionada",
+    "placeholder": "Ingresa el monto",
+    "btn": "Enviar",
+    "message1": "Mi dirección de billetera: ",
+    "message2": "Monto solicitado: ",
+    "message3": " en la red "
+  },
+  "sendPage": {
+    "title": "Enviar",
+    "scan": "Escanear código QR",
+    "placeholder1": "Dirección de la billetera",
+    "placeholder2": "Monto",
+    "error1": "Este campo es obligatorio",
+    "error2": "Ingresa el monto correcto",
+    "error3": "No hay suficiente dinero",
+    "slider1": "¡Enviado!",
+    "slider2": "Confirmar",
+    "confirm1": "Detalles",
+    "confirm2": "Traducción en línea",
+    "confirm3": "Traduciendo",
+    "confirm4": "Tarifa de transferencia: ",
+    "confirm5": "Dirección de transferencia: ",
+    "btn": "Enviar",
+    "noTokenError": "Seleccione moneda"
+  },
+  "referralPage": {
+    "title": "Programa de afiliados",
+    "total": "Referencias",
+    "balance": "Ganado",
+    "share": "Compartir el proyecto"
+  },
+  "contactPage": {
+    "title": "Lista de contactos"
+  },
+  "history": {
+    "send": "Enviado",
+    "receive": "Recibido",
+    "safeBtn": "Guardar",
+    "sendBtn": "Enviar",
+    "titlePopUp": "Guardar como"
+  }
+}

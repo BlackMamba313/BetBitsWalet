@@ -1,0 +1,60 @@
+/* В файле UserProfile.module.css */
+.container {
+    width: 100%; /* Занимает 100% ширины родительского элемента */
+    max-width: 342px; /* Максимальная ширина для мобильных устройств */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.stat {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.statValue {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1D33C0;
+}
+
+.kpiCircle {
+    position: relative;
+    width: 80%; /* 80% ширины родительского элемента */
+    margin: 20px auto;
+    height: 0;
+    padding-bottom: 80%; /* Пропорциональная высота для круга */
+    border-radius: 50%;
+    background: radial-gradient(circle at center, transparent 50%, #e0e0e0 50%, #e0e0e0);
+    border: 3px solid #4CAF50; /* Зеленая граница */
+}
+
+.kpiText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.shareButton {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}
+

@@ -1,0 +1,65 @@
+{
+  "general": {
+    "rate": "At the rate of 1",
+    "balance": "Your balance",
+    "btnSend": "Send",
+    "btnReceive": "Receive",
+    "qrScan": "Scan the QR code"
+  },
+  "mainPage": {
+    "title": "Crypto Wallets"
+  },
+  "profilePage": {
+    "title": "Profile Settings",
+    "placeholder1": "Email",
+    "placeholder2": "Phone number",
+    "safeBtn": "Save changes",
+    "contactBtn": "Contacts",
+    "verifyBtn": "Verify your account",
+    "referralBtn": "Affiliate Program"
+  },
+  "receivePage": {
+    "title": "Receive",
+    "receive": "Request a transfer from a contact",
+    "notCurrency": "The currency is not selected",
+    "placeholder": "Enter the amount",
+    "btn": "Send",
+    "message1": "My wallet address: ",
+    "message2": "The requested amount: ",
+    "message3": " on network "
+  },
+  "sendPage": {
+    "title": "Send",
+    "scan": "Scan the QR code",
+    "placeholder1": "Wallet address",
+    "placeholder2": "Amount",
+    "error1": "This field is required",
+    "error2": "Enter the correct amount",
+    "error3": "Not enough money",
+    "slider1": "Sent!",
+    "slider2": "Confirm",
+    "confirm1": "Details",
+    "confirm2": "Online translation",
+    "confirm3": "Translating",
+    "confirm4": "Transfer fee: ",
+    "confirm5": "Transfer address: ",
+    "btn": "Send",
+    "noTokenError": "Select currency"
+  },
+  "referralPage": {
+    "title": "Affiliate program",
+    "total": "STACKING USERS",
+    "balance": "MINING",
+    "share": "Share the project"
+  },
+  "contactPage": {
+    "title": "Contact list"
+  },
+  "history": {
+    "send": "Sent",
+    "receive": "Received",
+    "safeBtn": "Save",
+    "sendBtn": "Send",
+    "titlePopUp": "Save as"
+  }
+}

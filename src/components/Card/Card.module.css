@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 10px;
+    width: 90%;
+    height: 108px;
+    border-radius: 11px;
+    background: var(--card-color);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardTitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mainBalance {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+
+
+.subBalance {
+    margin-bottom: 10px;
+    color: #F0E666;
+    font-size: 17px;
+}

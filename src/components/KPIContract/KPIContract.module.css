@@ -1,0 +1,36 @@
+.container {
+    width: 100%; /* Занимает 100% ширины родительского элемента */
+    max-width: 342px; /* Максимальная ширина для мобильных устройств */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-size: 18px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin: 30px;
+}
+
+.button {
+    margin: 15px;
+    cursor: pointer;
+    width: 45%;
+    height: 45px;
+    border: 2px solid var(--currency-color);
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus, .button:active {
+    background-color: #4b4b4b;
+}

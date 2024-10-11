@@ -1,0 +1,29 @@
+/* В файле UserProfile.module.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Занимает 100% ширины родительского элемента */
+    max-width: 342px; /* Максимальная ширина для мобильных устройств */
+    padding: 10px 20px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #292a2f;
+    border-radius: 20px;
+    margin: 0 auto 10px auto ;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
